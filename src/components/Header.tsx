@@ -31,7 +31,7 @@ export const Header = () => {
         <motion.div
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="text-xl sm:text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-white via-blue-400 to-white bg-clip-text text-transparent hover:from-blue-400 hover:via-white hover:to-blue-400 transition-all duration-300"
+          className="text-xl sm:text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-white via-blue-400 to-white bg-clip-text text-transparent hover:from-blue-400 hover:via-white hover:to-blue-400 transition-all duration-300 uppercase font-poppins font-semibold"
         >
           Theara
         </motion.div>
